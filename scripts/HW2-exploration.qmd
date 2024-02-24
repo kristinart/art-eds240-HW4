@@ -1,7 +1,9 @@
 ---
 title: "HW2-exploration.qmd"
 author: "Kristin Art (she/her)"
-format: html
+format: 
+  html:
+    embed-resources: true
 editor: visual
 output:
   quarto::quarto_html:
