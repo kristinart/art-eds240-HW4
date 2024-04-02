@@ -348,7 +348,7 @@ print(p2)
 # define text ----
 p3_text <- glue::glue(
   "   In Southern California, most individual counties will be\n
-daily net producers of green H2 in 2030. LA coungh is the only\n
+daily net producers of green H2 in 2030. LA county is the only\n
 one that cannot produce enough green H2 to meet its local\n
 transportation demand. This means distribution of H2 from\n
 surrounding counties may play an important role for them. This\n
@@ -471,7 +471,7 @@ plt1 <- image_read("figures/p1.png") %>%
 plt2 <- image_read("figures/p2.png") %>%
   image_ggplot()
 
-plt3 <- image_read("figures/p3b.png") %>%
+plt3 <- image_read("figures/p3.png") %>%
   image_ggplot()
 
 
